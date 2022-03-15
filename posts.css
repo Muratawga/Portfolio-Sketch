@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+.divisoria {
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -ms-flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-font-smoothing: antialiased;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    min-height: 100vh;
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+}
+
+.row>div {
+    flex: 1;
+}
+
+h1 {
+    font-size: 72px;
+    color: #1E1B1B;
+}
+
+h2 {
+    font-size: 24px;
+    color: #1E1B1B;
+}
+
+h3 {
+    font-size: 24px;
+    color: #1E1B1B;
+}
+
+.texto {
+    margin: 0 auto;
+    transition: all 1s;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.colimg {
+    margin: 0 auto;
+    max-width: 80vw;
+    transition: all 1s;
+}
+
+body {
+    margin: 0;
+}
+
+#nav {
+    text-align: center;
+    margin-top: 0px;
+    padding: 14px 16px;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li {
+    float: left;
+    margin: 0 20px;
+}
+
+ul li a {
+    font-size: 17px;
+    color: #1E1B1B;
+}
